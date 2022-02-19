@@ -47,14 +47,14 @@ const Categories=()=>{
         <Table className={classes.table}>
          <TableHead>
              <TableRow>
-                <Link to={'/'} className={classes.link}> <TableCell>All Categories</TableCell></Link>
+                <Link to={'/home'} className={classes.link}> <TableCell>All Categories</TableCell></Link>
              </TableRow>
          </TableHead>
          <TableBody>
             {
                 categoriess.map(category=>(
                     <TableRow>
-                        <TableCell><Link  to={`/?category=${category}`} className={classes.link}>{category}</Link></TableCell>
+                        <TableCell><Link  to={`/home/?category=${category}`} className={classes.link}>{category}</Link></TableCell>
                     </TableRow>
                 ))
             }
