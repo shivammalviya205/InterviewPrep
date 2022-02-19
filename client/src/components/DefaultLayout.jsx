@@ -29,7 +29,7 @@ function DefaultLayout(props) {
             <div>
         <AppBar className={classes.component}>
              <Toolbar className={classes.container}>
-                <Link to='/' className={classes.link}><Typography>HOME</Typography></Link>
+                <Link to='/home' className={classes.link}><Typography>HOME</Typography></Link>
                <Link to='/about' className={classes.link}> <Typography>ABOUT</Typography></Link>
                 <Link  to='/contactus' className={classes.link}><Typography>CONTACT</Typography></Link>
                 <Typography className={classes.hover} onClick={()=>{
