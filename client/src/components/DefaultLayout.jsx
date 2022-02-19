@@ -34,7 +34,7 @@ function DefaultLayout(props) {
                 <Link  to='/contactus' className={classes.link}><Typography>CONTACT</Typography></Link>
                 <Typography className={classes.hover} onClick={()=>{
           localStorage.removeItem('user');
-          navigate('/login');
+          navigate('/');
       }}>LOGOUT</Typography>
 
 
