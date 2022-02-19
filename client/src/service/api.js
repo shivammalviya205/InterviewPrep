@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const url = 'http://localhost:5000';
+const url = '';
 export const createPost = async (post) => {
     try {
         return await axios.post(`${url}/post/create`, post);
