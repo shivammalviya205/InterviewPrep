@@ -21,9 +21,7 @@ const useStyles=makeStyles({
 const Categories=()=>{
     const[categoriess,setCategoriess]=useState([]);
     const classes=useStyles();
-      function refreshPage() {
-    window.location.reload(false);
-  }
+      
     useEffect(() => {
         const fetchData = async () => { 
             let data = await getAllCategory(); 
@@ -44,7 +42,7 @@ const Categories=()=>{
 
     return(
         <>
-       <Link to='/create' className={classes.link}> <Button onClick={refreshPage} variant="contained" className={classes.create}>Create blog</Button></Link>
+       <Link to='/create' className={classes.link}> <Button variant="contained" className={classes.create}>Create blog</Button></Link>
 
         <Table className={classes.table}>
          <TableHead>
