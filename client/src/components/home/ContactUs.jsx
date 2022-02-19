@@ -5,7 +5,7 @@ import DefaultLayout from '../DefaultLayout';
 
 const useStyles = makeStyles({
     banner: {
-        backgroundImage: `url(${'https://www.wallpapertip.com/wmimgs/23-236943_us-wallpaper-for-website.jpg'})`,
+        backgroundImage: `url(${'https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000__480.jpg'})`,
         width: '100%',
         height: '50vh',
         backgroundPosition: 'left 0px top -100px',
