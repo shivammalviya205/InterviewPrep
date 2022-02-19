@@ -42,7 +42,7 @@ const Login = () => {
 const saveUser= ()=>{
     MatchUser(userr);
    
-      navigate('/');
+      navigate('/home');
   
 
     
@@ -50,7 +50,7 @@ const saveUser= ()=>{
 }
 const direct= ()=>{
  
-  navigate('/');
+  navigate('/home');
 }
 
   return (
