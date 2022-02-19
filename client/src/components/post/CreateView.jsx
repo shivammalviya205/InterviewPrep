@@ -83,7 +83,7 @@ function CreateView() {
         // setPost({...post,'username':`${nam}`})
          createPost(post);
          createCategory(category);
-         navigate('/');
+         navigate('/home');
     }
     return (
         <DefaultLayout>
