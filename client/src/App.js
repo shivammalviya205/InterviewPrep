@@ -21,12 +21,12 @@ function App() {
        <Routes>
        
   
-     
+     <Route exact path="/login" element={<SignInUp/>} />
     <Route exact path="/" element={<Home/>} />
     <Route exact path="/details/:id" element={<DetailView/>} />
     <Route exact path="/create" element={<CreateView/>} />
     <Route exact path="/update/:id" element={<UpdateView/>} />
-    <Route exact path="/login" element={<SignInUp/>} />
+    
     <Route exact path="/about" element={<About/>} />
     <Route exact path="/contactus" element={<ContactUs/>} />
 
