@@ -44,7 +44,7 @@ router.post("/create", async(req, res) => {
          // await newuser.save()
         const user=await newUser.save();
        return res.status(200).json(user);
-    } catch (error) {
+    } catch (error) { 
       return res.status(500).json(error);
     }
 
