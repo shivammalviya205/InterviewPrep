@@ -47,7 +47,7 @@ const Categories=()=>{
         <Table className={classes.table}>
          <TableHead>
              <TableRow>
-                <Link to={'/home'} className={classes.link}> <TableCell>All Categories</TableCell></Link>
+                <Link to={'/home'} className={classes.link}> <TableCell>All Companies</TableCell></Link>
              </TableRow>
          </TableHead>
          <TableBody>
