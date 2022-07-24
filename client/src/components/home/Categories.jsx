@@ -42,7 +42,7 @@ const Categories=()=>{
 
     return(
         <>
-       <Link to='/create' className={classes.link}> <Button variant="contained" className={classes.create}>Create blog</Button></Link>
+       <Link to='/create' className={classes.link}> <Button variant="contained" className={classes.create}>Add Experience</Button></Link>
 
         <Table className={classes.table}>
          <TableHead>
