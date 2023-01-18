@@ -1,6 +1,6 @@
 const express=require('express')
 const app=express()
-const port = process.env.PORT || 5000
+const port = process.env.PORT 
 
 const cors=require("cors");
 const corsOptions ={
@@ -23,8 +23,8 @@ app.use('/user',require('./routes/userRoute'))
 
 const path = require('path')
 
-if(process.env.NODE_ENV==='production')
-{
+
+
 
     app.use('/' , express.static('client/build'))
 
@@ -34,13 +34,11 @@ if(process.env.NODE_ENV==='production')
 
     })
 
-}
 
 
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
+
+
   
   app.listen(port, () => 
     console.log(`Node js server started  at http://localhost:${port}`)
